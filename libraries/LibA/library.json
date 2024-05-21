@@ -1,0 +1,19 @@
+{
+    "name" : "LibA",
+    "version" : "1.0.0",
+    "frameworks": "arduino",
+    "platforms": [
+      "espressif8266",
+      "espressif32"
+    ],    
+    "dependencies" : [
+        {
+            "name" : "ArduinoJson",
+            "version" : "^7.0.4",
+            "platforms" :  [
+                "espressif32",
+                "espressif8266"
+            ]
+        }
+    ]
+}
